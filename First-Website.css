@@ -1,0 +1,49 @@
+/* *****************RESETTING */
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+/* *****************************
+.                    GRID-BOX
+***************************** */
+.container{
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     grid-auto-rows: minmax(50px, auto);
+     grid-gap: 10px;
+     grid-template-areas:
+     'h h h h h'
+     'a1 a1 ma ma ma'
+     'a2 a2 ma ma ma'
+     'mc mc mc mc mc'
+     'f f f f f';
+
+}
+.header{
+     grid-area: h;
+     background-color: gold;
+}
+.aside1{
+     grid-area: a1;
+     background-color: green;
+}
+
+.aside2{
+     grid-area: a2;
+     background-color: blue
+}
+
+.main-aside{
+     grid-area: ma;
+     background-color: black;
+}
+
+.main-content{
+     grid-area: mc;
+     background-color: deeppink;
+}
+.footer{
+     grid-area: f;
+     background-color: red
+}
