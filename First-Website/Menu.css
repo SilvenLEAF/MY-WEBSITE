@@ -1,0 +1,111 @@
+/* *********************************
+.                         NAVBAR
+********************************** */
+.nav{
+     width: 65%;
+     height: 100%;
+     position: fixed;
+     top: 0;
+     left: 0;
+
+     display: -webkit-flex;
+     display: -ms-flex;
+     display: flex;
+     align-items: center;
+}
+
+.nav > ul{
+     padding-left: 30%;
+     list-style-type: none;
+     line-height: 2;
+     letter-spacing: 2px;
+     color: white;
+     font-weight: bolder;
+     font-size: 120%;
+     width: 100%;
+}
+.nav > ul > li{
+     cursor: pointer;
+     transition: 0.4s ease;
+}
+.nav > ul > li:hover{
+     font-size: 110%;
+     color: black;
+}
+/* *********************************
+.                         Checkbox
+********************************** */
+.checkbox{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 40px;
+     height: 40px;
+     z-index: 100;
+     opacity: 0;
+}
+
+/* *********************************
+.                         Hamburger
+********************************** */
+.hamburger{
+     width: 50px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 50;
+}
+.hamburger::before,
+.hamburger::after,
+.hamburger > div{
+     content: "";
+     display: block;
+
+     height: 5px;
+     margin: 7px;
+
+     background-color: white;
+     border-radius: 10px;
+     transition: var(--hamburger-transition);
+}
+/* *********************************
+.                      Animating   Hamburger
+********************************** */
+.checkbox:checked + .hamburger::before{
+     transform: translateY(12px) rotate(-135deg);
+}
+.checkbox:checked + .hamburger::after{
+     transform: translateY(-12px) rotate(135deg);
+}
+.checkbox:checked + .hamburger > div{
+     transform: scale(0);
+}
+/* *********************************
+.                      Animating  Container
+********************************** */
+@media only screen and (orientation: portrait) {
+     .checkbox:checked ~ .container{
+          transform: translateX(55%) scale(0.8);
+          box-shadow: -6px -6px 15px hsl(328, 100%, 34%);
+     }
+}
+@media only screen and (orientation: landscape) {
+     .checkbox:checked ~ .container{
+          transform: translateX(35%) scale(0.8);
+          box-shadow: -6px -6px 15px hsl(328, 100%, 34%);
+     }
+}
+
+/* *********************************
+.                      Container
+********************************** */
+.container{
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     overflow: auto;
+
+     transition: var(--container-transition);
+}
