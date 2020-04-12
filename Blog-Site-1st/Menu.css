@@ -24,6 +24,14 @@
      font-size: 120%;
      width: 100%;
 }
+.nav > ul > li{
+     cursor: pointer;
+     transition: 0.4s ease;
+}
+.nav > ul > li:hover{
+     font-size: 110%;
+     color: black;
+}
 /* *********************************
 .                         Checkbox
 ********************************** */

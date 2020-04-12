@@ -16,25 +16,7 @@ body{
      background: black;
      overflow-x: hidden;
 }
-.wrapper{
-     min-height: 100vh;
-     border-bottom: -50px;
-}
-.wrapper::after{
-     content: "";
-     height: 50px;
-     display: block;
-}
-/* ***************************
-.                    FOOTER
-**************************** */
-#footer{
-     height: 50px;
-     margin-top: 0;
-     margin-bottom: 0;
-     background-color: red;
-     color: white;
-}
+
 /* ****************************
 .                         MAIN
 ***************************** */
@@ -152,6 +134,69 @@ body{
      margin-top: 0;
      float: left;
 }
+/* *****************************
+.          CREATION OF FOOTER
+****************************** */
+.wrapper{
+     min-height: 100vh;
+     border-bottom: -50px;
+}
+.wrapper::after{
+     content: "";
+     height: 50px;
+     display: block;
+}
+
+/* ***********************FOOTER */
+#footer{
+     margin-top: 0;
+     margin-bottom: 0;
+     background-color: purple;
+     color: white;
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+     justify-content: center;
+}
+
+#footer > p{
+     font-size: 90%;
+     position: relative;
+     left: 10px;
+}
+
+#footer > ul{
+     list-style-type: none;
+     margin: 0;
+     margin-top: 20px;
+     line-height: 0;
+     letter-spacing: 2px;
+     color: white;
+     font-weight: bolder;
+     font-size: 200%;
+}
+#footer > ul > li{
+     display: inline-block;
+     padding: 0 10px;
+     cursor: pointer;
+     transition: color 0.3s ease;
+}
+#footer > ul > li:nth-child(1):hover{
+     color: blue;
+}
+
+#footer > ul > li:nth-child(2):hover{
+     color: #fb3958;
+}
+
+#footer > ul > li:nth-child(3):hover{
+     color: #c4302b;
+}
+
+#footer > ul > li:nth-child(4):hover{
+     color: #1DA1F2;
+}
+
 /* **************************
 .                    HEADINGS
 *************************** */
@@ -163,3 +208,6 @@ p{
 img{
      width: 200px;
 }
+/* **************************
+.                    Animations
+*************************** */
