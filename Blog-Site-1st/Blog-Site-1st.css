@@ -13,5 +13,153 @@ body{
      background-color: hsl(328, 100%, 54%);
 }
 .container{
-     background-color: green;
+     background: black;
+     overflow-x: hidden;
+}
+.wrapper{
+     min-height: 100vh;
+     border-bottom: -50px;
+}
+.wrapper::after{
+     content: "";
+     height: 50px;
+     display: block;
+}
+/* ***************************
+.                    FOOTER
+**************************** */
+#footer{
+     height: 50px;
+     margin-top: 0;
+     margin-bottom: 0;
+     background-color: red;
+     color: white;
+}
+/* ****************************
+.                         MAIN
+***************************** */
+.hero{
+     height: 300px;
+     width: 100vw;
+     background: url('DISNEY.jpg') center center/cover;
+}
+/* ************************Anime */
+.anime{
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+}
+/* *******************FROZEN-II */
+.frozen{
+     margin: 10px;
+     margin-top: 30px;
+     position: relative;
+     width: 80vw;
+     height: auto;
+     background: url('Snowy.jpg') center center/cover;
+}
+.frozen::before{
+     content: "";
+
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     background: red;
+     transform: rotateZ(-5deg);
+     z-index: -1;
+
+}
+.Frozen-II{
+     width: 200px;
+     margin: 10px;
+     float: left;
+}
+
+/* *******************TANGLED */
+.tangled{
+     margin: 10px;
+     margin-top: 30px;
+     position: relative;
+     width: 80vw;
+     height: auto;
+     background: rgba(0, 0, 255, 0.1);
+}
+
+.tangled::after{
+     content: "";
+
+     height: 100%;
+     width: 100%;
+     background: url('Tower.webp') center/cover;
+
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+}
+.tangled::before{
+     content: "";
+
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     background: green;
+     transform: rotateZ(-5deg);
+     z-index: -2;
+}
+.Tangled{
+     margin: 10px;
+     margin-left: 0;
+     margin-top: 0;
+     float: left;
+}
+
+/* *******************MOANA */
+.moana{
+     margin: 10px;
+     margin-top: 30px;
+     position: relative;
+     width: 80vw;
+     height: auto;
+     background: rgba(0, 0, 255, 0);
+}
+
+.moana::after{
+     content: "";
+
+     height: 100%;
+     width: 100%;
+     background: url('Sea.jpg') right/cover;
+
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+}
+.moana::before{
+     content: "";
+
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     background: deeppink;
+     transform: rotateZ(-5deg);
+     z-index: -2;
+}
+.Moana{
+     margin: 10px;
+     margin-left: 0;
+     margin-top: 0;
+     float: left;
+}
+/* **************************
+.                    HEADINGS
+*************************** */
+p{
+     margin: 10px;
+     text-align: justify;
+     font-size: 150%;
+}
+img{
+     width: 200px;
 }
