@@ -3,7 +3,7 @@
      --hamburger-transition: 0.4s ease;
      --container-transition: 0.4s ease;
 }
-
+/* ************************************DEFAULT */
 body{
      box-sizing: border-box;
      margin: 0;
@@ -12,20 +12,19 @@ body{
      font-family: tahoma;
      background-color: hsl(328, 100%, 54%);
 }
+/* **********************************CONTAINER */
 .container{
      background: black;
      overflow-x: hidden;
 }
-
 /* ****************************
-.                         MAIN
+.                        WRAPPER
 ***************************** */
 .hero{
      height: 300px;
      width: 100vw;
      background: url('Hero.png') center center/cover;
 }
-
 /* *****************************
 .          CREATION OF FOOTER
 ****************************** */
@@ -37,7 +36,6 @@ body{
      content: "";
      display: block;
 }
-
 /* ***********************FOOTER */
 #footer, .wrapper::after{
      height: 80px;
@@ -59,7 +57,6 @@ body{
      position: relative;
      left: 10px;
 }
-
 #footer > ul{
      list-style-type: none;
      margin: 0;
@@ -77,21 +74,17 @@ body{
      transition: color 0.3s ease;
 }
 #footer > ul > li:nth-child(1):hover{
-     color: blue;
+     color: black;
 }
-
 #footer > ul > li:nth-child(2):hover{
      color: #fb3958;
 }
-
 #footer > ul > li:nth-child(3):hover{
      color: #c4302b;
 }
-
 #footer > ul > li:nth-child(4):hover{
      color: #1DA1F2;
 }
-
 /* **************************
 .                    HEADINGS
 *************************** */
@@ -99,9 +92,6 @@ p{
      margin: 10px;
      text-align: justify;
      font-size: 150%;
-}
-img{
-     width: 200px;
 }
 /* **************************
 .                    Animations
