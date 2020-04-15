@@ -14,16 +14,8 @@ body{
 }
 /* **********************************CONTAINER */
 .container{
-     background: black;
+     background: white;
      overflow-x: hidden;
-}
-/* ****************************
-.                        WRAPPER
-***************************** */
-.hero{
-     height: 300px;
-     width: 100vw;
-     background: url('Hero.png') center center/cover;
 }
 /* *****************************
 .          CREATION OF FOOTER
