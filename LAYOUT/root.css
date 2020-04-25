@@ -1,0 +1,90 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&family=Fugaz+One&family=Open+Sans:wght@400;600;800&family=Press+Start+2P&family=Special+Elite&display=swap");
+
+@media screen and (min-width: 300px) {
+     html{
+          font-size: calc(14px + (18 - 14)* (100vw - 300px)/ (1600 - 300));
+     }
+}
+/* ------------------------------------------------------------------- */
+
+:root{
+     --bodyBG: darkcyan;
+     --mainBG: darkgreen;
+}
+
+
+/* ------------------------------------------------------------------- */
+body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Dosis", "Open Sans", tahoma, sans-serif;
+     background: var(--bodyBG);
+}
+.container{
+     position: fixed;
+     top: 0;
+     left: 0;
+     bottom: 0;
+}
+
+
+
+/* ------------------------------------------------------------
+.                       CREATING FOOTER
+-------------------------------------------------------------- */
+.main{
+     min-height: 100vh;
+     min-width: 100vw;
+     margin-bottom: -80px;
+
+     background: var(--mainBG);
+}
+.main::after, .footer{
+     content: "";
+     display: block;
+
+     height: 80px;
+}
+.footer{
+     background: purple;
+}
+
+/* ------------------------------------------------------------
+.                       CREATING SEARCH
+-------------------------------------------------------------- */
+.search-box{
+     position: absolute;
+     top: 25px;
+     right: 30px;
+
+     border-radius: 40px;
+     padding: 2px;
+     border: 2px solid orangered;
+     background: #ddd;
+
+     display: flex;
+}
+.search-box .search-btn{
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     background: orangered;
+
+     font-size: 150%;
+     cursor: pointer;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.search-box .search-txt{
+     outline: none;
+     border: none;
+     background: none;
+     padding-left: 20px;
+
+     font-size: 110%;
+     color: purple;
+}
