@@ -10,7 +10,7 @@
 
 :root{
      --bodyBG: darkcyan;
-     --mainBG: #fff;
+     --mainBG: #ddd;
 }
 
 
@@ -38,7 +38,7 @@ body{
 .main{
      min-height: 100vh;
      min-width: 100vw;
-     margin-bottom: -80px;
+     margin-bottom: -100px;
 
      background: var(--mainBG);
 }
@@ -46,7 +46,7 @@ body{
      content: "";
      display: block;
 
-     height: 80px;
+     height: 100px;
 }
 .footer{
      background: purple;
