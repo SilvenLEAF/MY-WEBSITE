@@ -1,0 +1,33 @@
+.hero{
+     background: url('images/banner.jpg') top /cover;
+     height: 40vh;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+     color: #fff;
+     font-weight: bolder;
+     font-family: cursive;
+     font-size: 125%;
+     text-shadow: 6px 6px 6px #000;
+}
+
+.content{
+     margin:  50px;
+}
+
+.box{
+     margin-top: 50px;
+     width: 350px;
+     height: 350px;
+
+     background: red;
+
+     text-align: center;
+
+     border: 1px solid;
+}
+img{
+     width: 100%;
+}
