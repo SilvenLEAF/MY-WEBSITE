@@ -1,6 +1,7 @@
 .hero{
-     background: url('images/banner.jpg') top /cover;
-     height: 40vh;
+     background: url('images/banner.jpg') top/cover;
+     width: 100vw;
+     height: 30vh;
 
      display: flex;
      align-items: center;
@@ -9,7 +10,7 @@
      color: #fff;
      font-weight: bolder;
      font-family: cursive;
-     font-size: 125%;
+     font-size: 110%;
      text-shadow: 6px 6px 6px #000;
 }
 
@@ -19,8 +20,8 @@
 
 .box{
      margin-top: 50px;
-     width: 350px;
-     height: 350px;
+     width: 70vw;
+     height: 70vw;
 
      background: red;
 
@@ -30,6 +31,9 @@
 }
 img{
      width: 100%;
+}
+h2{
+     margin: 0;
 }
 
 
