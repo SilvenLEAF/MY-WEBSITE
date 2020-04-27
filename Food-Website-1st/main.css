@@ -31,3 +31,89 @@
 img{
      width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chicken-leg{
+     background: url("images/chicken-leg.jpg") center/cover;
+     width: 100%;
+     height: 60%;
+}
+.ramen{
+     background: url("images/ramen.jpg") center/cover;
+     width: 100%;
+     height: 60%;
+}
+.burger{
+     background: url("images/burger.jpeg") center/cover;
+     width: 100%;
+     height: 60%;
+}
+.worm{
+     background: url("images/worm.jpg") center/cover;
+     width: 100%;
+     height: 60%;
+}
+.pepper{
+     background: url("images/pepper-something.jpg") center/cover;
+     width: 100%;
+     height: 60%;
+}
+.toast-fries{
+     background: url("images/toast-and-fries.jpg") center/cover;
+     width: 100%;
+     height: 60%;
+}
+.noodles{
+     background: url("images/noodles.webp") center/cover;
+     width: 100%;
+     height: 60%;
+}
+.pasta{
+     background: url("images/pasta.jpg") center/cover;
+     width: 100%;
+     height: 60%;
+}
+.pizza{
+     background: url("images/pizza.webp") center/cover;
+     width: 100%;
+     height: 60%;
+}
+.oily{
+     background: url("images/oily-noodles.jpg" ) center/cover;
+     width: 100%;
+     height: 60%;
+}
