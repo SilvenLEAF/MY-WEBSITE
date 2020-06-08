@@ -66,7 +66,7 @@ body{
      transition: color 0.3s ease;
 }
 #footer > ul > li:nth-child(1):hover{
-     color: black;
+     color: #000;
 }
 #footer > ul > li:nth-child(2):hover{
      color: #fb3958;
