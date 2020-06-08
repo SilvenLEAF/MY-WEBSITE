@@ -13,7 +13,7 @@ body{
      background-color: hsl(328, 100%, 54%);
 }
 .container{
-     background: black;
+     background: #000;
      overflow-x: hidden;
 }
 
