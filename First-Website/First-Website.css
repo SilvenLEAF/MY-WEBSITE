@@ -36,7 +36,7 @@ body{
      margin-top: 0;
      margin-bottom: 0;
      background-color: purple;
-     color: white;
+     color: #fff;
      display: flex;
      flex-flow: column;
      align-items: center;
