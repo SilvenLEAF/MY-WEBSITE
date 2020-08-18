@@ -1,2 +1,2 @@
-# MY-WEBSITE
+# MyWebsites
 A collection of my FULLY RESPONSIVE WEBSITES
